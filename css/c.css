@@ -1,0 +1,38 @@
+#content{
+    display: grid;
+    grid-template-areas:
+   
+    ' content content content'
+    'content content  content';
+    text-align: center;
+  grid-area: content;
+  background-color: bisque;
+  margin-top: 30px;
+   
+}
+
+
+.item{
+
+  background-color:white;
+  border-radius: 200px;
+  border:2px solid black;
+  width: 450px;
+  height: 400px;
+  margin-top: 30px;
+}
+.item img{
+    size-adjust: 100px;
+
+}
+.item h1{
+    color: blue;
+}
+.item p{
+    color: blueviolet;
+}
+/* .item2{
+    grid-area: item2;
+    background-color:white;
+    border-radius: 20px;
+  } */
