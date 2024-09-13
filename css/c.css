@@ -1,16 +1,24 @@
 #content{
     display: grid;
-    grid-template-areas:
+   grid-template-areas: 
+  'cat cat cat cat'
+  'cate cate cate cate'
+  'cate cate cate cate';
    
-    ' content content content'
-    'content content  content';
     text-align: center;
-  grid-area: content;
+
   background-color: bisque;
-  margin-top: 30px;
+ 
    
 }
-
+#cate{
+  grid-area: cate;
+  display:inline-block;
+}
+#cat{
+grid-area: cat;
+display:inline-block ;
+}
 
 .item{
 
