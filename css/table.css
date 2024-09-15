@@ -1,0 +1,25 @@
+table,th ,td{
+    border: 1px solid red;
+    
+}
+/* td{
+    background-color: brown;
+} */
+table{
+    block-size: 200px;
+    width: 500px;
+    text-align: center;
+}
+tr ,th{
+    background-color: aqua;
+}
+
+tbody,tr{
+    background-color: blue;
+}
+.name{
+    background-color: beige;
+}
+#tr1{
+    background-color: blueviolet;
+}
