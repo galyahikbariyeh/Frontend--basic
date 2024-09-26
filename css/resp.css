@@ -1,0 +1,42 @@
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    'navBar navBar navBar navBar navBar navBar'
+    'content content content content content content'
+    'footer footer footer footer footer footer';
+    
+}
+#navBar{
+    grid-area: navBar;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#content{
+    grid-area: content;
+    background-color: bisque;
+    
+}
+.item{
+    display: inline-block;
+  
+   background-color: black;
+   margin-top: 10px;
+    
+}
+.item img{
+    width:400px;
+    margin-left: 35%;
+    margin-top: 10px;
+    margin-right: 10%;
+   
+    border: 2px solid black;
+}

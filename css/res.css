@@ -43,6 +43,10 @@ ul li{
     width: 400px;
     border: 2px solid black;
 }
+.hoverImage{
+    width: 100%;
+    /* border: 2px solid black; */
+}
 @media screen and (max-width:1024px){
     body{
         background-color: pink;
@@ -66,8 +70,9 @@ ul li{
 }
 
 @media screen and (max-width:700px){
-    body{
+    body{padding: 0px;
         background-color: greenyellow;
+        margin: 0px;
     }
     ul{
         list-style: none;
@@ -106,10 +111,12 @@ ul li{
    float: none;
  }
  .navButton{
+  padding-right: 2px;
+  padding-left: 2px;
     border-radius: 20px;
     margin: 20px;
     background-color: bisque;
-    padding:0px 0px;
+    /* padding:0px 0px; */
     margin-bottom: 10px;
  
 }
@@ -124,7 +131,7 @@ ul li{
      margin-top: 20px; */
  }
  ul li{
-   margin :0px;
+   margin :0px ;
    
     
  }
