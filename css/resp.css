@@ -2,9 +2,9 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-areas: 
-    'navBar navBar navBar navBar navBar navBar'
-    'content content content content content content'
-    'footer footer footer footer footer footer';
+    'navBar navBar navBar navBar navBar navBar navBar'
+    'content content content content content content content'
+    'footer footer footer footer footer footer  footer';
     
 }
 #navBar{
@@ -23,9 +23,37 @@
 #content{
     grid-area: content;
     background-color: bisque;
+  
     
+
 }
 .item{
+  
+width: 400px;
+   display:inline-block;
+    border:1px solid black;
+    margin: 10px 169px;
+    padding: 0px 0px;
+}
+
+.item  img{
+    border: 1px solid darkgrey;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 10px;
+    margin-left: 10px;
+
+    /* height: 600px; */
+   /* margin-top: 0px; */
+   
+}
+/* .item h1{
+    text-align: left;
+   text-align: end;
+   margin-right: 20px;
+   margin-top: 40px;
+} */
+/* .item{
     display: inline-block;
   
    background-color: black;
@@ -39,4 +67,4 @@
     margin-right: 10%;
    
     border: 2px solid black;
-}
+} */
