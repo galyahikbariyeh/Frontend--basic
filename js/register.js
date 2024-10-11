@@ -18,14 +18,22 @@ var userData={
     confirmPass:confirmPass.value
 
 }
-if(password.value == confirmPass.value){
+//1 way
+// if(password.value !== confirmPass.value){
+// alert('password and confirm pass are not the same')
+//     return
+// }
+//2 way
+console.log(allUsers)
+if( password.value == confirmPass.value){
     allUsers.push(userData)
 }
 else{
-    console.log('invalid')
+    alert('password and confirm pass are not the same')
 }
-console.log(allUsers)
-allUsers.push(userData)
+
+
+// allUsers.push(userData)
 localStorage.setItem('userData',JSON.stringify(allUsers))
 
 })
